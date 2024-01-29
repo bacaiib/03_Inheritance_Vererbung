@@ -1,8 +1,10 @@
+package com.cc.java;
+
 public class SuperCat {
 
-    String name;
-    String furColor;
-    int age;
+    private String name;
+    private String furColor;
+    protected int age;
 
 
     public SuperCat(String name, String furColor, int age) {
